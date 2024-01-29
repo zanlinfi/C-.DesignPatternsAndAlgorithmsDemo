@@ -1,2 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+var list = Enumerable.Repeat(10,10);
+Console.WriteLine(string.Join(",", list));
+
